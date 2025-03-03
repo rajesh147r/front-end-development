@@ -1,9 +1,12 @@
 body{
-    background-color: rgb(170, 202, 122);
+    background-color: rgb(166, 175, 244);
 }
 h2{
     background-color: hotpink;
 }
 h1{
-    background-color: aqua;
+    background-color: rgba(134, 230, 204, 0.749);
+}
+img{
+    background-color:black;
 }
