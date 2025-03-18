@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* applying styles to the html  */
+        div article{
+            background-color: blueviolet;
+        }
+        span{
+            background-color: aquamarine;
+            font-size: xx-large;
+        }
+        span{
+            background-color: aqua;
+        }
+        #two{
+            color: grey;
+        }
+        *{
+            align-items: center
+            width: 0%;
+        }
+        /* pseudo selector */
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: aquamarine;
+        }
+        a:active{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <!-- selecters in css are of 
+     1.class
+     2.id
+     3.child (div > div > p which means we are selecting the p which is inside a div which is inside a div)
+     4.descendent (div p which means we select p in the div no matter how many other sub classes in it )
+     5.universal selector (*) which applies the styles to all the tags in the html files 
+     6.pseudo selector(used to style the anker tag links)-->
+    <div>
+        <div>
+            <p><div id="10" style="font-size: large;">
+                <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum iure tenetur molestiae enim magni? Sunt dicta, accusantium inventore, non suscipit blanditiis commodi fugiat vero mollitia recusandae repellat eligendi! Eveniet, consectetur. Dolorum minima repudiandae impedit.</article>
+                hey there
+                hello
+            </div></p>
+            
+        </div>
+    </div>
+    <span id="two">
+        heyyoo
+    </span>
+    <div>
+        hello all
+    </div>
+    <a href="http://google.com">google</a>
+    <a href="http://facebook.com">facebook</a>
+</body>
+</html>
