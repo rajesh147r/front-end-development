@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box model in css</title>
     <style>
-        *{
+        /* *{
             margin: 0;
             padding: 0;
-        }
+        } */
         /* box1 text gets black in the background and its gets overcomed by the styling that is done after this */
         .box1{
             background-color: black;
             color: yellowgreen;
         }
         .box1{
+            align-self: center;
             background-color: aqua;
+            padding: 10px;
         }
         .box2{
             background-color: aqua;
@@ -23,9 +25,13 @@
     </style>
 </head>
 <body>
-    <div id="box" class="box box1">
-        heyy there this div automatically contains some padding and margin 
+    <div style="color:beige;">
+        <div>
+            <div id="box" class="box box1">
+                heyy there this div automatically contains some padding and margin 
+            </div>
+            <div class="box box2">they this is the subclass of the class box</div>
+        </div>
     </div>
-    <div class="box box2">they this is the subclass of the class box</div>
 </body>
 </html>
